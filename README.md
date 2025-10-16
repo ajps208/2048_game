@@ -122,10 +122,6 @@ npm install --save-dev gh-pages
 npm run deploy
 ```
 
-### Deploy to Vercel/Netlify
-
-Simply connect your GitHub repository to [Vercel](https://vercel.com) or [Netlify](https://netlify.com) for automatic deployments.
-
 ## 🎮 Keyboard Controls
 
 | Key | Action |
@@ -158,8 +154,7 @@ Each tile value has a unique color:
 
 ## 📸 Screenshots
 
-![Game Screenshot](./screenshots/game.png)
-*Add your game screenshots here*
+![Game Screenshot](./public/game.png)
 
 ## 📝 License
 
