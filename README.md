@@ -4,8 +4,9 @@ A modern, responsive implementation of the classic 2048 puzzle game built with R
 
 ## 🔗 Links
 
-- **Live Demo**: [https://your-username.github.io/2048-game](https://your-username.github.io/2048-game)
-- **GitHub Repository**: [https://github.com/your-username/2048-game](https://github.com/your-username/2048-game)
+- **Live Demo**: [https://2048-game-green.vercel.app/](https://2048-game-green.vercel.app/)
+
+- **GitHub Repository**: [https://github.com/ajps208/2048_game](https://github.com/ajps208/2048_game)
 
 ## 🎮 About the Game
 
