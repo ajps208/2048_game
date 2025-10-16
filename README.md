@@ -2,6 +2,11 @@
 
 A modern, responsive implementation of the classic 2048 puzzle game built with React and Material-UI.
 
+## 🔗 Links
+
+- **Live Demo**: [https://your-username.github.io/2048-game](https://your-username.github.io/2048-game)
+- **GitHub Repository**: [https://github.com/your-username/2048-game](https://github.com/your-username/2048-game)
+
 ## 🎮 About the Game
 
 2048 is a sliding block puzzle game where you combine tiles with the same numbers to create larger numbers. The goal is to create a tile with the number 2048!
@@ -27,7 +32,7 @@ A modern, responsive implementation of the classic 2048 puzzle game built with R
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/your-username/2048-game.git
 cd 2048-game
 ```
 
@@ -91,6 +96,36 @@ Launches the test runner in interactive watch mode
 ### `npm run build`
 Builds the app for production to the `build` folder
 
+### `npm run deploy`
+Deploys the app to GitHub Pages (if configured)
+
+## 🚀 Deployment
+
+### Deploy to GitHub Pages
+
+1. Install gh-pages:
+```bash
+npm install --save-dev gh-pages
+```
+
+2. Add to `package.json`:
+```json
+"homepage": "https://your-username.github.io/2048-game",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+3. Deploy:
+```bash
+npm run deploy
+```
+
+### Deploy to Vercel/Netlify
+
+Simply connect your GitHub repository to [Vercel](https://vercel.com) or [Netlify](https://netlify.com) for automatic deployments.
+
 ## 🎮 Keyboard Controls
 
 | Key | Action |
@@ -121,6 +156,11 @@ Each tile value has a unique color:
 - 1024-2048: Dark yellow/gold
 - 4096+: Purple
 
+## 📸 Screenshots
+
+![Game Screenshot](./screenshots/game.png)
+*Add your game screenshots here*
+
 ## 📝 License
 
 This project is open source and available for educational purposes.
@@ -129,10 +169,19 @@ This project is open source and available for educational purposes.
 
 Contributions, issues, and feature requests are welcome!
 
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## 📧 Contact
 
-For questions or feedback, feel free to reach out or open an issue.
+Project Link: [https://github.com/ajps208/2048_game](https://github.com/ajps208/2048_game)
+Deployed Link: [https://2048-game-green.vercel.app/](https://2048-game-green.vercel.app/)
 
 ---
 
 **Enjoy the game! Can you reach 2048?** 🎯
+
+⭐ Star this repo if you enjoyed playing!
